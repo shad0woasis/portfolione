@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Катюшкин Андрей — Full-Stack Developer | Портфолио</title>
+  <script>
+    // Редирект на index.html для поддержки SPA на GitHub Pages
+    // Сохраняем путь и параметры запроса
+    var path = window.location.pathname;
+    var search = window.location.search;
+    var hash = window.location.hash;
+    // Перенаправляем на корень репозитория
+    var basePath = window.location.pathname.split('/').slice(0, -1).join('/') || '/';
+    window.location.href = basePath + '/index.html' + search + hash;
+  </script>
+</head>
+<body>
+  <p>Redirecting...</p>
+</body>
+</html>
